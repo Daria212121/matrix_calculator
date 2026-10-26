@@ -1,0 +1,32 @@
+PROJECT_NAME           = "Matrix Calculator"
+PROJECT_BRIEF          = "Библиотека для работы с матрицами (ЛР-3, вариант 9)"
+PROJECT_NUMBER         = 1.0
+OUTPUT_LANGUAGE        = Russian
+
+INPUT                  = include src
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.cpp
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+
+OUTPUT_DIRECTORY       = docs
+
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+UML_LOOK               = YES
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+STRIP_CODE_COMMENTS    = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+QUIET                  = NO
+WARNINGS               = YES
